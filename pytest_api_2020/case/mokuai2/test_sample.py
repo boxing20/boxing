@@ -12,4 +12,4 @@ def test_add2():
     pytest.assume(add(1) == 2)
 
 if __name__ == '__main__':
-    pytest.main(["-v","./test_sample.py"])
+    pytest.main()
